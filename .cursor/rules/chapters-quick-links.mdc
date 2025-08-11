@@ -1,0 +1,63 @@
+---
+title: 장별 개요와 주요 코드 빠른 링크
+---
+
+# 장별 개요와 주요 코드 빠른 링크
+
+이 규칙은 저장소의 `README.md`에 정리된 장별 제목과 핵심 코드 진입점을 빠르게 찾을 수 있도록 도와줍니다. 각 항목은 대표 노트북 또는 스크립트 파일을 우선으로 안내합니다.
+
+- 설정/환경 설정 (Setup)
+  - 전체 가이드: [setup/README.md](mdc:setup/README.md)
+
+- 1장: 대형 언어 모델 이해하기
+  - 코드 없음
+
+- 2장: 텍스트 데이터 다루기
+  - 메인 노트북: [ch02/01_main-chapter-code/ch02.ipynb](mdc:ch02/01_main-chapter-code/ch02.ipynb)
+  - 요약(데이터로더): [ch02/01_main-chapter-code/dataloader.ipynb](mdc:ch02/01_main-chapter-code/dataloader.ipynb)
+  - 연습 해설: [ch02/01_main-chapter-code/exercise-solutions.ipynb](mdc:ch02/01_main-chapter-code/exercise-solutions.ipynb)
+
+- 3장: 어텐션 메커니즘 코딩
+  - 메인 노트북: [ch03/01_main-chapter-code/ch03.ipynb](mdc:ch03/01_main-chapter-code/ch03.ipynb)
+  - 요약(MHA): [ch03/01_main-chapter-code/multihead-attention.ipynb](mdc:ch03/01_main-chapter-code/multihead-attention.ipynb)
+  - 연습 해설: [ch03/01_main-chapter-code/exercise-solutions.ipynb](mdc:ch03/01_main-chapter-code/exercise-solutions.ipynb)
+
+- 4장: GPT 모델을 처음부터 구현
+  - 메인 노트북: [ch04/01_main-chapter-code/ch04.ipynb](mdc:ch04/01_main-chapter-code/ch04.ipynb)
+  - 핵심 코드(요약): [ch04/01_main-chapter-code/gpt.py](mdc:ch04/01_main-chapter-code/gpt.py)
+  - 연습 해설: [ch04/01_main-chapter-code/exercise-solutions.ipynb](mdc:ch04/01_main-chapter-code/exercise-solutions.ipynb)
+
+- 5장: 비라벨 데이터로 사전학습
+  - 메인 노트북: [ch05/01_main-chapter-code/ch05.ipynb](mdc:ch05/01_main-chapter-code/ch05.ipynb)
+  - 학습 스크립트(요약): [ch05/01_main-chapter-code/gpt_train.py](mdc:ch05/01_main-chapter-code/gpt_train.py)
+  - 생성 스크립트(요약): [ch05/01_main-chapter-code/gpt_generate.py](mdc:ch05/01_main-chapter-code/gpt_generate.py)
+  - 연습 해설: [ch05/01_main-chapter-code/exercise-solutions.ipynb](mdc:ch05/01_main-chapter-code/exercise-solutions.ipynb)
+
+- 6장: 텍스트 분류를 위한 미세조정
+  - 메인 노트북: [ch06/01_main-chapter-code/ch06.ipynb](mdc:ch06/01_main-chapter-code/ch06.ipynb)
+  - 분류 미세조정 스크립트: [ch06/01_main-chapter-code/gpt_class_finetune.py](mdc:ch06/01_main-chapter-code/gpt_class_finetune.py)
+  - 연습 해설: [ch06/01_main-chapter-code/exercise-solutions.ipynb](mdc:ch06/01_main-chapter-code/exercise-solutions.ipynb)
+
+- 7장: 지시 따르기 미세조정
+  - 메인 노트북: [ch07/01_main-chapter-code/ch07.ipynb](mdc:ch07/01_main-chapter-code/ch07.ipynb)
+  - 지시 미세조정 스크립트(요약): [ch07/01_main-chapter-code/gpt_instruction_finetuning.py](mdc:ch07/01_main-chapter-code/gpt_instruction_finetuning.py)
+  - Ollama 평가(요약): [ch07/01_main-chapter-code/ollama_evaluate.py](mdc:ch07/01_main-chapter-code/ollama_evaluate.py)
+  - 연습 해설: [ch07/01_main-chapter-code/exercise-solutions.ipynb](mdc:ch07/01_main-chapter-code/exercise-solutions.ipynb)
+
+- 부록 A: PyTorch 입문
+  - Part 1: [appendix-A/01_main-chapter-code/code-part1.ipynb](mdc:appendix-A/01_main-chapter-code/code-part1.ipynb)
+  - Part 2: [appendix-A/01_main-chapter-code/code-part2.ipynb](mdc:appendix-A/01_main-chapter-code/code-part2.ipynb)
+  - DDP 예제 스크립트: [appendix-A/01_main-chapter-code/DDP-script.py](mdc:appendix-A/01_main-chapter-code/DDP-script.py)
+  - 연습 해설: [appendix-A/01_main-chapter-code/exercise-solutions.ipynb](mdc:appendix-A/01_main-chapter-code/exercise-solutions.ipynb)
+
+- 부록 B: 참고문헌과 추가 읽을거리
+  - 코드 없음
+
+- 부록 C: 연습 문제 해설 요약
+  - 코드 없음
+
+- 부록 D: 학습 루프에 유용한 요소 추가
+  - 메인 노트북: [appendix-D/01_main-chapter-code/appendix-D.ipynb](mdc:appendix-D/01_main-chapter-code/appendix-D.ipynb)
+
+- 부록 E: LoRA로 파라미터 효율적 미세조정
+  - 메인 노트북: [appendix-E/01_main-chapter-code/appendix-E.ipynb](mdc:appendix-E/01_main-chapter-code/appendix-E.ipynb)
